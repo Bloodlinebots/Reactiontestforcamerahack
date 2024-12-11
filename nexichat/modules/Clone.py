@@ -23,7 +23,7 @@ clonebotdb = mongodb.clonebotdb
 async def clone_txt(client, message):
     if len(message.command) > 1:
         bot_token = message.text.split("/clone", 1)[1].strip()
-        mi = await message.reply_text("Please wait while I check the bot token.")
+        mi = await message.reply_text("YOUR BOT IS BEING CLONING.YOU PLEASE CHECK THE BOT....")
         try:
             ai = Client(bot_token, API_ID, API_HASH, bot_token=bot_token, plugins=dict(root="nexichat/mplugin"))
             await ai.start()
