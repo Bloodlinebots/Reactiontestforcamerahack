@@ -2,10 +2,12 @@ Abg==2.3.1
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
 pymongo
 motor
+aiohttp
 requests
 dnspython
 tgcrypto==1.2.2
 asyncio
+gunicorn
 python-dotenv
 pycgi
 apscheduler
